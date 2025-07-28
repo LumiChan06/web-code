@@ -1,0 +1,166 @@
+
+.top{
+    border:0 solid #fff;
+    height:1499px;
+    width:375px;
+    margin:auto;
+}
+ .headr{
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+
+ }
+ .figma-logo{
+    width:40px ;
+    height:35px; 
+    padding:8px 8px ;
+}
+.menu-bar{
+    width:36px ;
+    height:36px; 
+    padding:8px 8px ;
+}
+/*main-body*/
+
+.main-body{display: block;
+    border:2px solid #d9d9d9;
+    background-color: #f5f5f5;
+    height: 496px; 
+    width: 375px;
+}
+
+.words{
+        font-family: "Manrope", sans-serif;
+          font-optical-sizing: auto;
+          font-weight:bolder;
+          font-size:48px ; 
+          font-style:100%;
+          line-height:120% ;
+          color: #1e1e1e;
+          padding-top:160px ;
+          padding-left:80px ;
+          padding-right:80px ;
+          display: flex;
+         flex-direction: column;
+         align-items: center;     
+         justify-content: center; 
+         text-align: center;
+         letter-spacing: -2px;
+
+}
+.subword{display:flex;
+         flex-direction: column;
+         align-items: center;     
+         justify-content: center; 
+         text-align: center;
+        font-family: "Manrope", sans-serif;
+    color: #757575;
+    font-size:28px ;
+    font-weight:700px;
+    font-optical-sizing: auto;
+    margin-bottom:32px ;
+}
+
+/*exp*/
+
+.button-group {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px; 
+  /* spacing between buttons */
+}
+
+
+.first-child {
+  background-color: #e3e3e3;
+  border:2px solid #767676;
+  border-radius:8px ;
+  color: #1e1e1e;
+  width:112px ;
+         height: 40px; 
+         padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.last-child {
+  background-color: #2c2c2c;
+  border-radius:8px ;
+  color: #f5f5f5;
+  width:112px ;
+         height: 40px; 
+         padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  border:2px solid #2c2c2c;
+  cursor :pointer;
+}
+
+
+
+/*footer*/
+
+.zero{
+    border: 2px solid #ffffff82;
+    width:375px;
+    margin: auto;
+}
+.footer{
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+     border: 2px solid #ffffff98;
+}
+
+.futr{
+    display:flex;
+    justify-content:start;
+    align-items: center;
+}
+
+
+.figma-logo-two{
+    width:40px ;
+    height:35px; 
+    padding:8px 8px ;
+}
+.futr-tu{
+    display:flex;
+    justify-content:end;
+    align-items: center;
+}
+
+.x-logo{
+    width:25px ;
+    height:25px; 
+    padding:8px 8px ;
+}
+.insta-logo{
+    width:30px ;
+    height:30px; 
+    padding:8px 8px ;
+}
+.yt-logo{
+    width:36px ;
+    height:36px; 
+    padding:8px 8px ;
+}
+.linkedin-logo{
+    width:30px ;
+    height:30px; 
+    padding:8px 8px ;
+    border-radius:15px ;
+}
+.ending{
+    display:flex;
+    justify-content:start;
+    align-items:start;
+    flex-direction: column;
+    border:0 solid #fff;
+    padding:8px 0 ;
+    gap:24px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}

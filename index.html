@@ -13,13 +13,17 @@
    <header class ="top">
     <div class="headr">
 <img src="images/figma-svgrepo-com.svg" alt="figma-logo" class="figma-logo">
-<img src="https://www.svgrepo.com/show/532195/menu.svg" alt="menu" class="menu-bar">
+
+<div class ="clip>">
+  <img src="https://www.svgrepo.com/show/532195/menu.svg" alt="menu" class="menu-bar">
+<button onclick="myFunction()">.</button>
+</div>
 </div>
 <main class="main-body">
 <div class="words">
     Title 
 </div>
- <div class="subword">
+ <div class="subword ">
     Subtitle
 
 </div> 
@@ -79,5 +83,11 @@
 </div>
 </footer>
 </header>
+<script>
+function myFunction() {
+   var element = document.body;
+   element.classList.toggle("dark-mode");
+}
+</script>
 </body>
 </html>
